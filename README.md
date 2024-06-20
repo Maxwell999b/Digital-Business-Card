@@ -18,7 +18,7 @@ React.js, HTML5, CSS3, JavaScript
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+4. Start the development server: `npm run dev`
 
 ### Usage
 - Visit the deployed portfolio to view details and switch between light and dark modes.
