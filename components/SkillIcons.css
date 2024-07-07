@@ -1,0 +1,245 @@
+/* SkillIcons.css */
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.skill-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.skill-icon svg {
+  width: 3rem;
+  height: 3rem;
+  color: #ffffff;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.skill-icon:hover svg {
+  transform: scale(1.2);
+}
+
+/* Specific hover colors based on brand colors */
+.skill-icon.html5:hover svg {
+  color: #e34f26; /* HTML5 */
+}
+
+.skill-icon.css3:hover svg {
+  color: #1572b6; /* CSS3 */
+}
+
+.skill-icon.javascript:hover svg {
+  color: #f7df1e; /* JavaScript */
+}
+
+.skill-icon.typescript:hover svg {
+  color: #3178c6; /* TypeScript */
+}
+
+.skill-icon.react:hover svg {
+  color: #61dafb; /* React */
+}
+
+.skill-icon.bootstrap:hover svg {
+  color: #7952b3; /* Bootstrap */
+}
+
+.skill-icon.sass:hover svg {
+  color: #cc6699; /* SASS */
+}
+
+.skill-icon.tailwindcss:hover svg {
+  color: #38b2ac; /* TailwindCSS */
+}
+
+.skill-icon.vite:hover svg {
+  color: #646cff; /* Vite */
+}
+
+.skill-icon.markdown:hover svg {
+  color: #000000; /* Markdown */
+}
+
+.skill-icon.vercel:hover svg {
+  color: #000000; /* Vercel */
+}
+
+.skill-icon.githubpages:hover svg {
+  color: #181717; /* GitHub Pages */
+}
+
+.skill-icon.figma:hover svg {
+  color: #f24e1e; /* Figma */
+}
+
+.skill-icon.npm:hover svg {
+  color: #cb3837; /* NPM */
+}
+
+.skill-icon.github:hover svg {
+  color: #181717; /* GitHub */
+}
+
+.skill-icon.git:hover svg {
+  color: #f05032; /* Git */
+}
+
+.skill-icon.postman:hover svg {
+  color: #ff6c37; /* Postman */
+}
+
+.skill-icon.windows:hover svg {
+  color: #2272b6; /* Windows */
+}
+
+.skill-icon.terminal:hover svg {
+  color: #000000; /* Terminal */
+}
+
+.skill-icon.powershell:hover svg {
+  color: #5391fe; /* PowerShell */
+}
+
+.skill-icon.redux:hover svg {
+  color: #764abc; /* Redux */
+}
+
+.skill-icon.reactquery:hover svg {
+  color: #ff4154; /* React Query */
+}
+
+.skill-icon.reactrouter:hover svg {
+  color: #ca4245; /* React Router */
+}
+
+.skill-icon.reacthookform:hover svg {
+  color: #ec5990; /* React Hook Form */
+}
+
+.skill-icon.obsidian:hover svg {
+  color: #483699; /* Obsidian */
+}
+
+.skill-name {
+  margin-top: 0.5rem;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+body.light-mode .skill-icon svg {
+  color: #333333;
+}
+
+body.light-mode .skill-icon:hover svg {
+  color: #301e67; /* Change this to the respective hover color */
+}
+
+body.light-mode .skill-icon.html5:hover svg {
+  color: #e34f26; /* HTML5 */
+}
+
+body.light-mode .skill-icon.css3:hover svg {
+  color: #1572b6; /* CSS3 */
+}
+
+body.light-mode .skill-icon.javascript:hover svg {
+  color: #f7df1e; /* JavaScript */
+}
+
+body.light-mode .skill-icon.typescript:hover svg {
+  color: #3178c6; /* TypeScript */
+}
+
+body.light-mode .skill-icon.react:hover svg {
+  color: #61dafb; /* React */
+}
+
+body.light-mode .skill-icon.bootstrap:hover svg {
+  color: #7952b3; /* Bootstrap */
+}
+
+body.light-mode .skill-icon.sass:hover svg {
+  color: #cc6699; /* SASS */
+}
+
+body.light-mode .skill-icon.tailwindcss:hover svg {
+  color: #38b2ac; /* TailwindCSS */
+}
+
+body.light-mode .skill-icon.vite:hover svg {
+  color: #646cff; /* Vite */
+}
+
+body.light-mode .skill-icon.markdown:hover svg {
+  color: #000000; /* Markdown */
+}
+
+body.light-mode .skill-icon.vercel:hover svg {
+  color: #000000; /* Vercel */
+}
+
+body.light-mode .skill-icon.githubpages:hover svg {
+  color: #181717; /* GitHub Pages */
+}
+
+body.light-mode .skill-icon.figma:hover svg {
+  color: #f24e1e; /* Figma */
+}
+
+body.light-mode .skill-icon.npm:hover svg {
+  color: #cb3837; /* NPM */
+}
+
+body.light-mode .skill-icon.github:hover svg {
+  color: #181717; /* GitHub */
+}
+
+body.light-mode .skill-icon.git:hover svg {
+  color: #f05032; /* Git */
+}
+
+body.light-mode .skill-icon.postman:hover svg {
+  color: #ff6c37; /* Postman */
+}
+
+body.light-mode .skill-icon.windows:hover svg {
+  color: #2272b6; /* Windows */
+}
+
+body.light-mode .skill-icon.terminal:hover svg {
+  color: #000000; /* Terminal */
+}
+
+body.light-mode .skill-icon.powershell:hover svg {
+  color: #5391fe; /* PowerShell */
+}
+
+body.light-mode .skill-icon.redux:hover svg {
+  color: #764abc; /* Redux */
+}
+
+body.light-mode .skill-icon.reactquery:hover svg {
+  color: #ff4154; /* React Query */
+}
+
+body.light-mode .skill-icon.reactrouter:hover svg {
+  color: #ca4245; /* React Router */
+}
+
+body.light-mode .skill-icon.reacthookform:hover svg {
+  color: #ec5990; /* React Hook Form */
+}
+
+body.light-mode .skill-icon.obsidian:hover svg {
+  color: #483699; /* Obsidian */
+}
+
+body.light-mode .skill-name {
+  color: #333333;
+}

@@ -3,7 +3,7 @@ import "./index.css";
 import Info from "../components/Info";
 import Bio from "../components/Bio";
 import Footer from "../components/Footer";
-
+import SkillIcons from "../components/SkillIcons";
 export default function App() {
   const [lightMode, setLightMode] = useState(false);
 
@@ -28,6 +28,7 @@ export default function App() {
     <div className="App">
       <Info lightMode={lightMode} toggleLightMode={toggleLightMode} />
       <Bio />
+      <SkillIcons />
       <Footer />
     </div>
   );
