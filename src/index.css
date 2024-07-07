@@ -230,6 +230,10 @@ html.light-mode {
   transition: color 0.3s;
 }
 
+.light-mode .bio--skills__title-2 {
+  color: #333333;
+}
+
 .light-mode .bio--about__title,
 .light-mode .bio--intrests__title {
   color: #333333;
@@ -295,4 +299,24 @@ html.light-mode {
 }
 .icon-sizing {
   width: 2rem;
+}
+
+.custom-chat {
+  color: #c099f3;
+}
+.custom-checkbox {
+  color: #ec99f3;
+}
+.custom-checkbox-mini {
+  color: #fcb9cd;
+}
+
+.light-mode .custom-chat {
+  color: #074173;
+}
+.light-mode .custom-checkbox {
+  color: #1679ab;
+}
+.light-mode .custom-checkbox-mini {
+  color: #16ab97;
 }

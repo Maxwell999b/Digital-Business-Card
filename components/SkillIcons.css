@@ -15,8 +15,8 @@
 }
 
 .skill-icon svg {
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1rem;
   color: #ffffff;
   transition: color 0.3s, transform 0.3s;
 }

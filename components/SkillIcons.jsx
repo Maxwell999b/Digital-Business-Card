@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   SiHtml5,
   SiCss3,
@@ -23,6 +24,8 @@ import {
 import { FaGit, FaWindows } from "react-icons/fa";
 import { DiTerminal } from "react-icons/di";
 import { SiPowershell, SiObsidian } from "react-icons/si";
+import { IoMdCheckboxOutline, IoMdChatbubbles } from "react-icons/io";
+
 import "./SkillIcons.css";
 
 const skills = [
@@ -77,22 +80,35 @@ const skills = [
     ],
   },
 ];
-
 const SkillIcons = () => {
+  const [activeCategory, setActiveCategory] = useState("");
+
+  const handleCategoryClick = (category) => {
+    setActiveCategory(category === activeCategory ? "" : category);
+  };
+
   return (
     <section className="bio">
-      <h3 className="bio--about__title">💻 Tech Stack:</h3>
+      <h3 className="bio--about__title">
+        <IoMdChatbubbles className="custom-chat" /> Tech Stack
+      </h3>
       {skills.map((category, index) => (
         <div key={index} className="bio--about">
-          <h6 className={`bio--skills__title-2`}>{category.category}:</h6>
-          <div className="skills-container">
-            {category.icons.map((skill, idx) => (
-              <div key={idx} className={`skill-icon ${skill.className}`}>
-                {skill.icon}
-                <span className="skill-name">{skill.name}</span>
-              </div>
-            ))}
+          <div className="skills-header" onClick={() => handleCategoryClick(category.category)}>
+            <h6 className={`bio--skills__title-2`}>
+              <IoMdCheckboxOutline className="custom-checkbox" /> {category.category}:
+            </h6>
           </div>
+          {activeCategory === category.category && (
+            <div className="skills-container">
+              {category.icons.map((skill, idx) => (
+                <div key={idx} className={`skill-icon ${skill.className}`}>
+                  {skill.icon}
+                  <span className="skill-name">{skill.name}</span>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </section>
