@@ -1,8 +1,8 @@
-.education {
+.experience {
   margin: 3rem 2.5rem;
 }
 
-.education--title {
+.experience--title {
   font-weight: 700;
   line-height: 150%;
   color: #f5f5f5;
@@ -10,22 +10,22 @@
   transition: color 0.3s;
 }
 
-.light-mode .education--title {
+.light-mode .experience--title {
   color: #333333;
 }
 
-.education--item {
+.experience--item {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.education--details {
+.experience--details {
   display: flex;
   flex-direction: column;
 }
 
-.education--descr {
+.experience--descr {
   color: #dcdcdc;
   line-height: 150%;
   font-weight: 400;
@@ -33,26 +33,21 @@
   transition: color 0.3s;
 }
 
-.education--info {
+.experience--info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.education--site {
+.experience--date {
   font-size: 12px;
   color: #f5f5f5;
 }
 
-.education--date {
-  font-size: 12px;
-  color: #f5f5f5;
-}
-.light-mode .education--site,
-.light-mode .education--date {
+.light-mode .experience--date {
   color: #888888;
 }
 
-.light-mode .education--descr {
+.light-mode .experience--descr {
   color: #333333;
 }

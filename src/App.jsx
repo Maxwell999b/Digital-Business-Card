@@ -5,6 +5,7 @@ import Bio from "../components/Bio";
 import Footer from "../components/Footer";
 import SkillIcons from "../components/SkillIcons";
 import Education from "../components/Education";
+import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import CallToAction from "../components/CallToAction";
 export default function App() {
@@ -63,6 +64,7 @@ export default function App() {
       <Bio />
       <SkillIcons />
       <Education />
+      <Experience />
       <Projects />
       <CallToAction />
       <Footer />
