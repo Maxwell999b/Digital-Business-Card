@@ -8,8 +8,8 @@ const Projects = () => (
     </h3>
     <div className="projects--grid">
       <a href="https://anime-cards-anime-gogo-tv.vercel.app/" target="_blank" className="projects--card">
-        <img src="/public/assets/1.png" alt="Project 1: Anime GOGO TV" className="projects--image" />
-        <img src="/public/assets/1-2.png" alt="Project 1: Anime GOGO TV" className="projects--image-hover" />
+        <img src="/assets/1.png" alt="Project 1: Anime GOGO TV" className="projects--image" />
+        <img src="/assets/1-2.png" alt="Project 1: Anime GOGO TV" className="projects--image-hover" />
         <div className="projects--overlay">
           <p className="projects--text">
             <a
@@ -23,8 +23,8 @@ const Projects = () => (
       </a>
 
       <a href="https://pixel-store-seven.vercel.app/" target="_blank" className="projects--card">
-        <img src="/public/assets/2.png" alt="Project 2: Pixel Store" className="projects--image" />
-        <img src="/public/assets/2-2.png" alt="Project 2: Pixel Store" className="projects--image-hover" />
+        <img src="/assets/2.png" alt="Project 2: Pixel Store" className="projects--image" />
+        <img src="/assets/2-2.png" alt="Project 2: Pixel Store" className="projects--image-hover" />
         <div className="projects--overlay">
           <p className="projects--text">
             <a href="https://github.com/Maxwell999b/pixel-store" target="_blank" className="projects--card">
@@ -35,8 +35,8 @@ const Projects = () => (
       </a>
 
       <a href="https://maxwell999b.github.io/Front-End-Portfolio/" target="_blank" className="projects--card">
-        <img src="/public/assets/4.png" alt="Project 4: Simple Portfolio" className="projects--image" />
-        <img src="/public/assets/4-2.png" alt="Project 4: Simple Portfolio" className="projects--image-hover" />
+        <img src="/assets/4.png" alt="Project 4: Simple Portfolio" className="projects--image" />
+        <img src="/assets/4-2.png" alt="Project 4: Simple Portfolio" className="projects--image-hover" />
         <div className="projects--overlay">
           <p className="projects--text">
             <a href="https://github.com/Maxwell999b/Front-End-Portfolio" target="_blank" className="projects--card">
@@ -50,13 +50,9 @@ const Projects = () => (
         href="https://addons.mozilla.org/en-US/firefox/addon/midnight-radiance-theme/"
         target="_blank"
         className="projects--card">
+        <img src="/assets/3.png" alt="Project 3: Midnight Radiance Theme -firefox theme" className="projects--image" />
         <img
-          src="/public/assets/3.png"
-          alt="Project 3: Midnight Radiance Theme -firefox theme"
-          className="projects--image"
-        />
-        <img
-          src="/public/assets/3-2.png"
+          src="/assets/3-2.png"
           alt="Project 3: Midnight Radiance Theme -firefox theme"
           className="projects--image-hover"
         />
