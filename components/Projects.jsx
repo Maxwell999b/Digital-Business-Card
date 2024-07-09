@@ -44,8 +44,8 @@ const Projects = () => (
       </a>
 
       <a href="https://maxwell999b.github.io/Front-End-Portfolio/" target="_blank" className="projects--card">
-        <img src={P3} alt="Project 4: Simple Portfolio" className="projects--image" />
-        <img src={P3copy} alt="Project 4: Simple Portfolio" className="projects--image-hover" />
+        <img src={P4} alt="Project 4: Simple Portfolio" className="projects--image" />
+        <img src={P4copy} alt="Project 4: Simple Portfolio" className="projects--image-hover" />
         <div className="projects--overlay">
           <p className="projects--text">
             <a href="https://github.com/Maxwell999b/Front-End-Portfolio" target="_blank" className="projects--card">
@@ -59,8 +59,8 @@ const Projects = () => (
         href="https://addons.mozilla.org/en-US/firefox/addon/midnight-radiance-theme/"
         target="_blank"
         className="projects--card">
-        <img src={P4} alt="Project 3: Midnight Radiance Theme -firefox theme" className="projects--image" />
-        <img src={P4copy} alt="Project 3: Midnight Radiance Theme -firefox theme" className="projects--image-hover" />
+        <img src={P3} alt="Project 3: Midnight Radiance Theme -firefox theme" className="projects--image" />
+        <img src={P3copy} alt="Project 3: Midnight Radiance Theme -firefox theme" className="projects--image-hover" />
         <div className="projects--overlay">
           <p className="projects--text">
             <a href="https://github.com/Maxwell999b/Midnight-Radiance-Theme" target="_blank" className="projects--card">
