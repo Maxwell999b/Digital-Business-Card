@@ -22,19 +22,13 @@ html.light-mode {
   font-family: "Inter", sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }
-.app {
-  padding: 0;
-  margin: 0;
-  background-color: #dbdde6;
-  color: #333333;
-  font-family: "Inter", sans-serif;
-  transition: background-color 0.3s, color 0.3s;
-}
+
 .App {
   margin: auto;
   width: 500px;
   background-color: #1a1b21;
   border-radius: 10px 10px 10px 10px;
+  font-family: "Inter", sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -319,4 +313,11 @@ html.light-mode {
 }
 .light-mode .custom-checkbox-mini {
   color: #16ab97;
+}
+.bg-heading-titles {
+  background-color: #ff98bf;
+  border-radius: 6px;
+}
+.light-mode .bg-heading-titles {
+  background-color: #fff098;
 }

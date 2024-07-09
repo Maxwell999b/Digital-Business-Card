@@ -1,0 +1,31 @@
+.call-to-action {
+  margin: 3rem 2.5rem;
+  text-align: left;
+}
+
+.call-to-action--title {
+  font-weight: 700;
+  line-height: 150%;
+  color: #f5f5f5;
+  display: inline;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+
+.light-mode .call-to-action--title {
+  color: #333333;
+}
+
+.call-to-action--descr {
+  color: #dcdcdc;
+  line-height: 150%;
+  font-weight: 400;
+  margin-top: 1rem;
+  font-size: 16px;
+  transition: color 0.3s;
+  text-align: center;
+}
+
+.light-mode .call-to-action--descr {
+  color: #333333;
+}

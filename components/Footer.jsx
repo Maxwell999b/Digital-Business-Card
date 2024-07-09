@@ -5,7 +5,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <img className="icon-sizing" src={Icon} alt="Icon" />
-
       <div className="footer--copyright">
         <p>&copy;2024 -Maxwell999b. All rights reserved.</p>
       </div>

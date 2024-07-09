@@ -1,0 +1,88 @@
+.projects {
+  margin: 3rem 2.5rem;
+}
+
+.projects--title {
+  font-weight: 700;
+  line-height: 150%;
+  color: #f5f5f5;
+  font-size: 30px;
+  transition: color 0.3s;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.light-mode .projects--title {
+  color: #333333;
+}
+
+.projects--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.projects--card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.projects--card:hover {
+  transform: scale(1.05);
+}
+
+.projects--image,
+.projects--image-hover {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.projects--image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.projects--card:hover .projects--image {
+  opacity: 0;
+}
+
+.projects--card:hover .projects--image-hover {
+  opacity: 1;
+}
+
+.projects--overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  transition: background 0.3s;
+}
+
+.light-mode .projects--overlay {
+  background: rgba(255, 255, 255, 0.7);
+  color: #333333;
+}
+
+.projects--text {
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+.projects--text a {
+  text-decoration: none;
+  color: #c099f3;
+}
+
+.light-mode .projects--text a {
+  color: #3795e7;
+}
