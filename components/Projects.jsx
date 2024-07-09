@@ -21,6 +21,7 @@ const Projects = () => (
           </p>
         </div>
       </a>
+
       <a href="https://pixel-store-seven.vercel.app/" target="_blank" className="projects--card">
         <img src="/assets/2.png" alt="Project 2" className="projects--image" />
         <img src="/assets/2-2.png" alt="Project 2 Hover" className="projects--image-hover" />
@@ -44,6 +45,7 @@ const Projects = () => (
           </p>
         </div>
       </a>
+
       <a
         href="https://addons.mozilla.org/en-US/firefox/addon/midnight-radiance-theme/"
         target="_blank"
